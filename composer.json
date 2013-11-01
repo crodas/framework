@@ -1,0 +1,22 @@
+{
+    "name": "crodas/framework",
+    "description": "Tiny framework that I use daily, it is basically my libraries glued all together",
+    "require": {
+        "crodas/autoloader": "*",
+        "crodas/dispatcher": "~0.1",
+        "crodas/service-provider": "~0.1",
+        "crodas/activemongo2": "~0.1",
+        "crodas/simple-view-engine": "~0.1",
+        "filp/whoops": "dev-master"
+    },
+    "scripts": {
+        "post-autoload-dump": "Autoloader\\Composer::generate"
+    },
+    "authors": [
+        {
+            "name": "César D. Rodas",
+            "email": "crodas@php.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,15 @@
+devel: true
+temp_dir: ../../tmp/
+
+activemongo:
+    path: ../models/
+    db: database_name
+
+simple-view:
+    views: [../views/]
+
+dispatcher:
+    dir: [../controllers/, ../libs]
+
+db: %activemongo%
+view: %simple-view%
