@@ -7,7 +7,8 @@
         "crodas/service-provider": "~0.1",
         "crodas/activemongo2": "~0.1",
         "crodas/simple-view-engine": "~0.1",
-        "filp/whoops": "dev-master"
+        "filp/whoops": "dev-master",
+        "crodas/tiny-form": "*"
     },
     "scripts": {
         "post-autoload-dump": "Autoloader\\Composer::generate"
