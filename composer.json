@@ -13,6 +13,8 @@
     "scripts": {
         "post-autoload-dump": "Autoloader\\Composer::generate"
     },
+    "license": "BSD-4-Clause",
+    "version": "v0.1.0",
     "authors": [
         {
             "name": "César D. Rodas",
