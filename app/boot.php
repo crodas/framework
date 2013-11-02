@@ -8,7 +8,8 @@ use Whoops\Handler\PrettyPageHandler;
 $service = new \ServiceProvider\Composer(
     __DIR__ . "/configs/app.yml",
     'Service',
-    __DIR__ . "/../tmp/services.php"
+    __DIR__ . "/../tmp/services.php",
+    array(__DIR__ . '/services/*.php')
 );
 
 if (Service::Get('devel')) {
