@@ -2,12 +2,12 @@
     "name": "crodas/framework",
     "description": "Tiny framework that I use daily, it is basically my libraries glued all together",
     "require": {
-        "crodas/autoloader": "*",
+        "crodas/autoloader": "~0.1",
         "crodas/dispatcher": "~0.1",
         "crodas/service-provider": "~0.1",
         "crodas/activemongo2": "~0.1",
         "crodas/simple-view-engine": "~0.1",
-        "filp/whoops": "dev-master",
+        "filp/whoops": "1.*",
         "crodas/tiny-form": "*"
     },
     "scripts": {

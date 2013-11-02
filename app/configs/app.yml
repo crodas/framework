@@ -1,3 +1,6 @@
+include:
+    - auth.yml
+
 devel: true
 temp_dir: ../../tmp/
 
