@@ -8,7 +8,8 @@
         "crodas/activemongo2": "~0.1",
         "crodas/simple-view-engine": "~0.1",
         "filp/whoops": "1.*",
-        "crodas/tiny-form": "*"
+        "crodas/tiny-form": "*",
+        "crodas/cli": "~0.1"
     },
     "scripts": {
         "post-autoload-dump": "Autoloader\\Composer::generate"
