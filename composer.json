@@ -8,13 +8,14 @@
         "crodas/activemongo2": "~0.1",
         "crodas/simple-view-engine": "~0.1",
         "filp/whoops": "1.*",
-        "crodas/tiny-form": "*"
+        "crodas/tiny-form": "*",
+        "crodas/cli": "~0.1"
     },
     "scripts": {
         "post-autoload-dump": "Autoloader\\Composer::generate"
     },
     "license": "BSD-4-Clause",
-    "version": "v0.1.1",
+    "version": "v0.1.2",
     "authors": [
         {
             "name": "César D. Rodas",
