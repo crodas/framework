@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . "/../vendor/autoload.php";
+require __DIR__ . "/define.php";
 
 use Whoops\Run;
 use Whoops\Handler\PrettyPageHandler;
@@ -8,10 +9,10 @@ use Whoops\Handler\PrettyPageHandler;
 mb_internal_Encoding("UTF-8");
 
 $service = new \ServiceProvider\Composer(
-    __DIR__ . "/configs/app.yml",
+    CONFIG,
     'Service',
-    __DIR__ . "/../tmp/services.php",
-    array(__DIR__ . '/services/*.php')
+    SERVICE,
+    array(SERVICES)
 );
 
 if (Service::Get('devel') && PHP_SAPI !== 'cli') {
